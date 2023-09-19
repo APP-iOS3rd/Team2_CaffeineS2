@@ -50,3 +50,22 @@
     
 ⏰ 팀 규칙
 **사이좋게지내기❤︎, 모르는 부분있으면 질문하기,틈틈이 거북목 스트레칭 하기🙆**
+
+## 팀 인사
+<pre>
+<code>
+import foundation
+
+func caffeineS2() -> String {
+  print("안녕하세요 저희는 CaffeineS2 팀 입니다!")
+  print("열심히 공부하고 노력해서")
+  print("취업까지 성공할테니")
+  print("잘 부탁드립니다!")
+  return "CaffeineS2팀"
+}
+</code>
+</pre>
+
+
+## 팀 노션
+ [Notion](https://www.notion.so/4f45b89fc9a749959c0e172d4d372a60?v=711b849217a64f25b2b9ec5db6a3fdfc&p=c8d7903718b445a58bee5849a7007cfd&pm=c)

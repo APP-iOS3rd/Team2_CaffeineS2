@@ -23,6 +23,7 @@
 		7B1603702AF37B6600485A3F /* DumplingSoupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B16036F2AF37B6600485A3F /* DumplingSoupView.swift */; };
 		7B1603722AF3879B00485A3F /* StarListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1603712AF3879B00485A3F /* StarListView.swift */; };
 		7B1603742AF38EF900485A3F /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1603732AF38EF900485A3F /* Secret.swift */; };
+		7B1603762AF3B54100485A3F /* FoodDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1603752AF3B54100485A3F /* FoodDetail.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,6 +44,7 @@
 		7B16036F2AF37B6600485A3F /* DumplingSoupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DumplingSoupView.swift; sourceTree = "<group>"; };
 		7B1603712AF3879B00485A3F /* StarListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarListView.swift; sourceTree = "<group>"; };
 		7B1603732AF38EF900485A3F /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		7B1603752AF3B54100485A3F /* FoodDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetail.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 			children = (
 				7B16034D2AF36CC500485A3F /* FoodNutritionApp.swift */,
 				7B16034F2AF36CC500485A3F /* ContentView.swift */,
+				7B1603752AF3B54100485A3F /* FoodDetail.swift */,
 				7B1603652AF37AAC00485A3F /* ChickenRibsView.swift */,
 				7B16036D2AF37B4C00485A3F /* OysterGukbapView.swift */,
 				7B16036F2AF37B6600485A3F /* DumplingSoupView.swift */,
@@ -182,6 +185,7 @@
 				7B1603602AF36F4200485A3F /* Food.swift in Sources */,
 				7B16036E2AF37B4C00485A3F /* OysterGukbapView.swift in Sources */,
 				7B1603682AF37ADD00485A3F /* GrilledBeefView.swift in Sources */,
+				7B1603762AF3B54100485A3F /* FoodDetail.swift in Sources */,
 				7B1603502AF36CC500485A3F /* ContentView.swift in Sources */,
 				7B1603742AF38EF900485A3F /* Secret.swift in Sources */,
 				7B16036A2AF37B1200485A3F /* SeasonedGrilledEelView.swift in Sources */,

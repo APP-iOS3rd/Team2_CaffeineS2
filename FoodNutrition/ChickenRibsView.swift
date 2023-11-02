@@ -8,11 +8,14 @@
 import SwiftUI
 
 struct ChickenRibsView: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
+	
+	@Binding var nutrition: Nutrition
+	
+	var body: some View {
+		Text(nutrition.descKor)
+	}
 }
 
-#Preview {
-    ChickenRibsView()
-}
+//#Preview {
+//	ChickenRibsView()
+//}

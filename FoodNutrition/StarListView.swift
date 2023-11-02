@@ -14,13 +14,10 @@ struct StarListView: View {
 	var body: some View {
 		List(0..<foodStore.food.nutrition.count, id: \.self) { i in
 			if foodStore.food.nutrition[i].isStar {
-				switch foodStore.food.nutrition[i].descKor {
-				case "떡만둣국":
-					NavigationLink(destination: DumplingSoupView(selectedFood: $foodStore.food.nutrition[i])) {
+				NavigationLink(destination: { FoodDetail(selectedFood: $foodStore.food.nutrition[i]) }) {
+					HStack {
 						FoodListCell(imageName: foodStore.food.nutrition[i].imageName, foodName: foodStore.food.nutrition[i].descKor, isStar: foodStore.food.nutrition[i].isStar)
 					}
-				default:
-					VStack { }
 				}
 			}
 		}

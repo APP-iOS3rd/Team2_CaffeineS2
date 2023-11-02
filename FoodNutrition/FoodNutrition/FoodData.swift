@@ -7,7 +7,7 @@
 
 import Foundation
 
-var foodData: Food = Food(id: UUID().uuidString, nutrition: loadJson("foodInfo.json"), isStar: false)
+var foodData: Food = Food(nutrition: loadJson("foodInfo.json"))
 
 func loadJson<T: Decodable>(_ filename: String) -> T {
 	let data: Data

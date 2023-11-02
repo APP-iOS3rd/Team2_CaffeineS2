@@ -7,14 +7,12 @@
 
 import Foundation
 
-struct Food: Codable, Identifiable {
-	var id: String
+struct Food: Codable {
 	var nutrition: [Nutrition]
-	var isStar: Bool
 }
 
-// MARK: - FOODElement
-struct Nutrition: Codable {
+struct Nutrition: Codable, Identifiable {
+	var id: String = UUID().uuidString
 	var nutrCont8, nutrCont9, nutrCont4, nutrCont5: String
 	var nutrCont6, num, nutrCont7, nutrCont1: String
 	var nutrCont2, subRefName, nutrCont3, researchYear: String

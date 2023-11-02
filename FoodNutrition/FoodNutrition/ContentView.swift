@@ -67,7 +67,7 @@ struct FoodListCell: View {
 		HStack{
 			Image(imageName)
 				.resizable()
-				.aspectRatio(contentMode: .fit)
+				.aspectRatio(contentMode: .fill)
 				.frame(width: 100, height: 60)
 				.clipShape(.rect(cornerRadius: 6.0))
 			Text(foodName)

@@ -8,6 +8,6 @@
 import Foundation
 
 struct Secret {
-	let naverClientID: String = "클라이언트 아이디 복붙"
-	let naverClientSecret: String = "클라이언트 시크릿 복붙"
+	let naverClientID: String = "Kadhao5HjTdMKVljN1cS"
+	let naverClientSecret: String = "40qITaOGcb"
 }

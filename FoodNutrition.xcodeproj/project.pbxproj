@@ -24,6 +24,8 @@
 		7B1603722AF3879B00485A3F /* StarListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1603712AF3879B00485A3F /* StarListView.swift */; };
 		7B1603742AF38EF900485A3F /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1603732AF38EF900485A3F /* Secret.swift */; };
 		7B1603762AF3B54100485A3F /* FoodDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1603752AF3B54100485A3F /* FoodDetail.swift */; };
+		7B1603782AF3D6A200485A3F /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1603772AF3D6A200485A3F /* Search.swift */; };
+		7B16037A2AF3D71300485A3F /* SearchData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B1603792AF3D71300485A3F /* SearchData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -45,6 +47,8 @@
 		7B1603712AF3879B00485A3F /* StarListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StarListView.swift; sourceTree = "<group>"; };
 		7B1603732AF38EF900485A3F /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
 		7B1603752AF3B54100485A3F /* FoodDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FoodDetail.swift; sourceTree = "<group>"; };
+		7B1603772AF3D6A200485A3F /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		7B1603792AF3D71300485A3F /* SearchData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,6 +97,8 @@
 				7B16035D2AF36F2D00485A3F /* FoodData.swift */,
 				7B16035F2AF36F4200485A3F /* Food.swift */,
 				7B1603632AF3758B00485A3F /* FoodStore.swift */,
+				7B1603772AF3D6A200485A3F /* Search.swift */,
+				7B1603792AF3D71300485A3F /* SearchData.swift */,
 				7B1603732AF38EF900485A3F /* Secret.swift */,
 			);
 			path = FoodNutrition;
@@ -182,11 +188,13 @@
 				7B1603722AF3879B00485A3F /* StarListView.swift in Sources */,
 				7B1603662AF37AAC00485A3F /* ChickenRibsView.swift in Sources */,
 				7B16035E2AF36F2D00485A3F /* FoodData.swift in Sources */,
+				7B1603782AF3D6A200485A3F /* Search.swift in Sources */,
 				7B1603602AF36F4200485A3F /* Food.swift in Sources */,
 				7B16036E2AF37B4C00485A3F /* OysterGukbapView.swift in Sources */,
 				7B1603682AF37ADD00485A3F /* GrilledBeefView.swift in Sources */,
 				7B1603762AF3B54100485A3F /* FoodDetail.swift in Sources */,
 				7B1603502AF36CC500485A3F /* ContentView.swift in Sources */,
+				7B16037A2AF3D71300485A3F /* SearchData.swift in Sources */,
 				7B1603742AF38EF900485A3F /* Secret.swift in Sources */,
 				7B16036A2AF37B1200485A3F /* SeasonedGrilledEelView.swift in Sources */,
 				7B1603642AF3758B00485A3F /* FoodStore.swift in Sources */,

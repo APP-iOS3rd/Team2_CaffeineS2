@@ -15,7 +15,7 @@ struct FoodDetail: View {
 		Form {
 			Section {
 				Image(selectedFood.imageName)
-//					.resizable()
+					.resizable()
 					.clipShape(.rect(cornerRadius: 12.0))
 					.aspectRatio(contentMode: .fit)
 					.padding()

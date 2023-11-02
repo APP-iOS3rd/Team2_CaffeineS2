@@ -16,6 +16,7 @@ struct SeasonedGrilledEelView: View {
 	}
 }
 
-//#Preview {
-//    SeasonedGrilledEelView()
-//}
+#Preview {
+    @StateObject var foodStore: FoodStore = FoodStore(food: foodData)
+    return SeasonedGrilledEelView(nutrition: $foodStore.food.nutrition[2])
+}

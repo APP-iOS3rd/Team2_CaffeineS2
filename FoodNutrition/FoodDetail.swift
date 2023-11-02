@@ -10,6 +10,7 @@ import SwiftUI
 struct FoodDetail: View {
 	
 	@Binding var selectedFood: Nutrition
+	@State private var requestApi = LoadRestaurantAPI()
 	
 	var body: some View {
 		Form {
@@ -114,6 +115,9 @@ struct FoodDetail: View {
 				}
 			}) {
 				Text("Next")
+			}
+			.onAppear {
+				requestApi.requestAPIToNaver(queryValue: "떡만둣국")
 			}
 		}
 	}

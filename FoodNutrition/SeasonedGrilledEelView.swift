@@ -17,6 +17,14 @@ struct SeasonedGrilledEelView: View {
 	var body: some View {
         VStack {
             Form {
+                Section{
+                    Image("3")
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .cornerRadius(10.0)
+                } header: {
+                    Text("양념장어구이")
+                }
                 Section {
                     IngredientView(ing: ing2["eel"] ?? "", title:"장어")
                     IngredientView(ing: ing2["oil"] ?? "", title:"식용유")

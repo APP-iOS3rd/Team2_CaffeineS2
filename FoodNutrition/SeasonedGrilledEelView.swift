@@ -16,7 +16,7 @@ struct SeasonedGrilledEelView: View {
 	
 	var body: some View {
         VStack {
-            List {
+            Form {
                 Section {
                     IngredientView(ing: ing2["eel"] ?? "", title:"장어")
                     IngredientView(ing: ing2["oil"] ?? "", title:"식용유")
@@ -35,6 +35,19 @@ struct SeasonedGrilledEelView: View {
                 } header: {
                     Text("소스 재료")
                 }
+                Section {
+                    VStack(alignment: .leading) {
+                        TextView(num: "1.", text: "손질된 장어는 핏물을 제거하고 식용유 두른 팬에 올립니다. 소금도 약간 뿌려주세요.")
+                        TextView(num: "2.", text: "앞뒤로 노릇하게 구워주세요.")
+                        TextView(num: "3.", text: "소스 재료를 잘 섞어주세요.")
+                        TextView(num: "4.", text: "한번 바글바글 끓여줍니다.")
+                        TextView(num: "5.", text: "구운 장어 위에 양념장을 듬뿍 발라주세요.")
+                        TextView(num: "6.", text: "앞뒤로 양념을 덧발라가며 구워줍니다.")
+                    }
+                } header: {
+                    Text("요리법")
+                }
+                
             }
             .navigationTitle("Ingredients")
         }
@@ -50,6 +63,19 @@ struct IngredientView: View {
             Spacer()
             Text(ing)
         }
+    }
+}
+
+struct TextView: View {
+    var num: String
+    var text: String
+    var body: some View {
+        HStack(alignment: .firstTextBaseline) {
+            Text(num)
+                .fontWeight(.bold)
+            Text(text)
+        }
+        .padding(.bottom, 10)
     }
 }
 

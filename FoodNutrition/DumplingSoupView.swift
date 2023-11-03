@@ -14,10 +14,14 @@ struct DumplingSoupView: View {
     var body: some View {
         Form {
             Section {
-                Text("떡만둣국 레시피")
-                    .font(.title)
-                    .fontWeight(.bold)
-                
+                HStack{
+                    Spacer()
+                    Text("떡만둣국 레시피")
+                        .font(.title)
+                        .fontWeight(.bold)
+                        .padding(3)
+                    Spacer()
+                }
                 Image(._6)
                     .resizable()
                     .clipShape(.rect(cornerRadius: 12.0))
@@ -206,7 +210,7 @@ struct DumplingSoupView: View {
                     HStack(alignment: .firstTextBaseline) {
                         Text("11.")
                             .font(.headline)
-                        Text("보글보글 끓여주다가 계락을 원으로 둘러주세요.")
+                        Text("보글보글 끓여주다가 계란을 원으로 둘러주세요.")
                     }
                     .padding()
                     HStack(alignment: .firstTextBaseline) {

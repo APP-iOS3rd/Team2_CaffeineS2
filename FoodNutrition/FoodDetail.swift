@@ -117,7 +117,7 @@ struct FoodDetail: View {
 				Text("Next")
 			}
 			.onAppear {
-				requestApi.requestAPIToNaver(queryValue: "떡만둣국")
+				requestApi.requestAPIToNaver(queryValue: "소양념갈비")
 			}
 		}
 	}

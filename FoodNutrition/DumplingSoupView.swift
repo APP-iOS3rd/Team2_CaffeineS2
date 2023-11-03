@@ -14,14 +14,6 @@ struct DumplingSoupView: View {
     var body: some View {
         Form {
             Section {
-                HStack{
-                    Spacer()
-                    Text("떡만둣국 레시피")
-                        .font(.title)
-                        .fontWeight(.bold)
-                        .padding(3)
-                    Spacer()
-                }
                 Image(._6)
                     .resizable()
                     .clipShape(.rect(cornerRadius: 12.0))
@@ -232,6 +224,7 @@ struct DumplingSoupView: View {
                 }
             }
         }
+        .navigationTitle("떡만둣국 레시피")
     }
 }
 

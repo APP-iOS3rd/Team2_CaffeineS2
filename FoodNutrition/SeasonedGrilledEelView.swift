@@ -57,7 +57,7 @@ struct SeasonedGrilledEelView: View {
                 }
                 
             }
-            .navigationTitle("Ingredients")
+            .navigationTitle("Recipe")
         }
 	}
 }

@@ -89,11 +89,8 @@ struct FoodDetail: View {
 					Spacer()
 					Text(selectedFood.nutrCont9)
 				}
-			} header: {
-				HStack {
-					Text("음식 세부사항")
-				}
 			}
+			.navigationTitle(Text("영양성분"))
 		}
 		.toolbar {
 			NavigationLink(destination: {

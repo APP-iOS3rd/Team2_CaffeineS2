@@ -66,28 +66,32 @@ struct GrilledBeefView: View {
 					Text("5")
 				}
 			}
-			.navigationTitle(Text("Ingredients"))
+			.navigationTitle(Text("조리법"))
 		}
 		.toolbar {
 			Button(action: {
 				self.isRestaurantListSheet.toggle()
 			}) {
-				Text("맛집리스트")
+				Text("맛집목록")
 			}
 		}
 		.onAppear {
 			searchList = DataManager.shared.searchResult?.items ?? []
 		}
 		.sheet(isPresented: $isRestaurantListSheet) {
-			List {
-				ForEach(0..<searchList.count, id: \.self) { i in
-					HStack {
-						VStack(alignment: .leading) {
-							Text(searchList[i].title.removeTag)
-								.font(.headline)
-							Text(searchList[i].roadAddress)
-								.font(.caption)
-								.foregroundStyle(.gray)
+			NavigationStack {
+				List {
+					ForEach(0..<searchList.count, id: \.self) { i in
+						NavigationLink(destination: RestaurantDetailView(restaurant: searchList[i])) {
+							HStack {
+								VStack(alignment: .leading) {
+									Text(searchList[i].title.removeTag)
+										.font(.headline)
+									Text(searchList[i].roadAddress)
+										.font(.caption)
+										.foregroundStyle(.gray)
+								}
+							}
 						}
 					}
 				}
@@ -137,6 +141,18 @@ extension String {
 			value = value.replacingOccurrences(of: "</b>", with: "")
 		}
 		return value
+	}
+	
+	var stringTolatitude: Double {
+		var arr: [String] = self.map { String($0) }
+		arr.insert(".", at: 2)
+		return Double(arr.joined()) ?? 0
+	}
+	
+	var stringTolongitude: Double {
+		var arr: [String] = self.map { String($0) }
+		arr.insert(".", at: 3)
+		return Double(arr.joined()) ?? 0
 	}
 }
 

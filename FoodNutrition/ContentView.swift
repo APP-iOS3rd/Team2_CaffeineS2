@@ -23,7 +23,7 @@ struct ContentView: View {
 			.toolbar {
 				StarButton().environmentObject(foodStore)
 			}
-			.navigationTitle(Text("Food"))
+			.navigationTitle(Text("음식"))
 		}
 	}
 	

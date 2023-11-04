@@ -16,7 +16,7 @@ struct RestaurantDetailView: View {
 	var body: some View {
 		Form {
 			Section {
-				RestaurantMapView(restaurantCoordinate: CLLocationCoordinate2D(latitude: restaurant.mapy.stringTolatitude, longitude: restaurant.mapx.stringTolongitude))
+				RestaurantMapView(restaurantName: restaurant.title.removeTag, restaurantCoordinate: CLLocationCoordinate2D(latitude: restaurant.mapy.stringTolatitude, longitude: restaurant.mapx.stringTolongitude))
 					.padding()
 					.clipShape(.rect(cornerRadius: 20))
 					.frame(height: 200)

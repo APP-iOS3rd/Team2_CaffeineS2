@@ -30,6 +30,7 @@
 		7BF83E352AF5FF6B006948ED /* RestaurantWebLinkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF83E342AF5FF6B006948ED /* RestaurantWebLinkView.swift */; };
 		7BF83E372AF60302006948ED /* RestaurantMapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF83E362AF60302006948ED /* RestaurantMapView.swift */; };
 		7BF83E392AF60318006948ED /* RestaurantDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF83E382AF60318006948ED /* RestaurantDetailView.swift */; };
+		7BF83E3B2AF6179B006948ED /* Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BF83E3A2AF6179B006948ED /* Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,6 +58,7 @@
 		7BF83E342AF5FF6B006948ED /* RestaurantWebLinkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantWebLinkView.swift; sourceTree = "<group>"; };
 		7BF83E362AF60302006948ED /* RestaurantMapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantMapView.swift; sourceTree = "<group>"; };
 		7BF83E382AF60318006948ED /* RestaurantDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RestaurantDetailView.swift; sourceTree = "<group>"; };
+		7BF83E3A2AF6179B006948ED /* Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,6 +100,7 @@
 				7B16036B2AF37B3000485A3F /* HamburgerSteakView.swift */,
 				7B1603692AF37B1200485A3F /* SeasonedGrilledEelView.swift */,
 				7B1603672AF37ADD00485A3F /* GrilledBeefView.swift */,
+				7BF83E3A2AF6179B006948ED /* Extension.swift */,
 				7BF83E382AF60318006948ED /* RestaurantDetailView.swift */,
 				7BF83E362AF60302006948ED /* RestaurantMapView.swift */,
 				7BF83E322AF5FF01006948ED /* WebViewController.swift */,
@@ -204,6 +207,7 @@
 				7BF83E352AF5FF6B006948ED /* RestaurantWebLinkView.swift in Sources */,
 				7BF83E372AF60302006948ED /* RestaurantMapView.swift in Sources */,
 				7B1603602AF36F4200485A3F /* Food.swift in Sources */,
+				7BF83E3B2AF6179B006948ED /* Extension.swift in Sources */,
 				7B16036E2AF37B4C00485A3F /* OysterGukbapView.swift in Sources */,
 				7B1603682AF37ADD00485A3F /* GrilledBeefView.swift in Sources */,
 				7B1603762AF3B54100485A3F /* FoodDetail.swift in Sources */,
